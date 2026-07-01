@@ -151,6 +151,9 @@
                 <joint name="left_elbow_joint" axis="0 1 0" range="-1.25 2.61"/>
                 <geom class="visual" mesh="left_elbow_link"/>
                 <geom class="collision" mesh="left_elbow_link"/>
+                <body name="left_hand" pos="0.27 -0.03 -0.07">
+                  <inertial pos="0 0 0" mass="1e-6" diaginertia="1e-9 1e-9 1e-9"/>
+                </body>
               </body>
             </body>
           </body>
@@ -179,6 +182,9 @@
                 <joint name="right_elbow_joint" axis="0 1 0" range="-1.25 2.61"/>
                 <geom class="visual" mesh="right_elbow_link"/>
                 <geom class="collision" mesh="right_elbow_link"/>
+                <body name="right_hand" pos="0.27 0.03 -0.07">
+                  <inertial pos="0 0 0" mass="1e-6" diaginertia="1e-9 1e-9 1e-9"/>
+                </body>
               </body>
             </body>
           </body>
